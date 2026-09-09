@@ -16,8 +16,6 @@ make
 make test
 ```
 
-Broj `49` je broj indeksa i koristi se kao seme pri pravljenju matrice.
-
 Program pravi tri fajla u direktorijumu `results`:
 
 ```text
