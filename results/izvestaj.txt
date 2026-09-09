@@ -1,0 +1,39 @@
+ZADATAK 2
+Seme: 49
+Seme mora odgovarati broju indeksa.
+n=15, redova=9, wr=5, wc=3
+
+Rang H: 6
+Stvarna dimenzija: 9
+Dostizni sindromi: 64/512
+Kodno rastojanje d: 2
+Najkraca nenulta kodna rec: 001010000000000
+Garantovana ispravka optimalnim dekoderom: 0 gresaka.
+
+Devet redova nisu nezavisni: zbir redova svake grupe je isti.
+Korektori su nadjeni pregledom svih 32768 reci.
+Svaki korektor ima najmanju tezinu za svoj sindrom.
+
+Gallager B: th0=th1=0.5, postupak iz skripte 8.8.2.
+Poslata rec je nulta. Uspeh je povratak bas na nulu.
+Tezina  Provereno  Ispravljeno  Pogresna rec  Ciklus
+0       1          1            0             0
+1       15          0            0             15
+
+Najmanja neuspesna tezina: 1
+Primer greske: 100000000000000
+Garantovana ispravka Gallagerom: 0 gresaka.
+Sindromski dekoder za isti primer: 000000000000000
+
+Gallagerove iteracije:
+100000000000000
+000100000000000
+111010000000000
+001110000000111
+110000000011000
+110000000011000
+Kraj: ciklus
+
+Sve manje tezine su potpuno proverene. Za ove pragove i wc=3,
+linearnost i simetrija dozvoljavaju proveru nulte poslate reci.
+Nulti sindrom ne znaci uvek da je vracena poslata rec.
